@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Black"
+             x:Class="LOcalStorageAssignment.ProfilePage">
+    <StackLayout Padding="20">
+
+        <Label Text="Name" TextColor="White" FontSize="40"/>
+        <Entry x:Name="NameEntry" TextColor="White" FontAttributes="Bold" />
+
+
+        <Label Text="Surname"  TextColor="White" FontSize="40"/>
+        <Entry x:Name="SurnameEntry" TextColor="White" FontAttributes="Bold" />
+
+        <Label Text="Bio"  TextColor="White" FontSize="40"/>
+        <Editor x:Name="BioEditor" TextColor="White" FontAttributes="Bold" />
+
+        <Button Text="Save" Clicked="OnSaveButtonClicked"  TextColor="White" FontSize="40"/>
+    </StackLayout>
+</ContentPage>
+
